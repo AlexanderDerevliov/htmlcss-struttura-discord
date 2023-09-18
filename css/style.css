@@ -54,3 +54,87 @@ header {
     min-height: 250px;
     width: 50%;
 }
+
+/* SECTIONS */
+
+/* FIRST-SECTION */
+
+/* COMMON STYLE */
+
+.section, .section2, .section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+/* LEFT AND RIGHT */
+.left-content, .right-content {
+    min-height: 300px;
+    border: 1px dashed black;
+}
+
+.left-content  {
+    background-color: lightblue;
+    width: 40%;
+}
+
+.right-content {
+    background-color: pink;
+    width: 30%; 
+}
+/* SECOND-SECTION  */
+
+.section2 {
+    background-color: grey;
+}
+
+.left-content2, .right-content2 {
+    min-height: 300px;
+    border: 1px dashed black;
+}
+
+.left-content2  {
+    background-color: pink;
+    width: 30%;
+}
+
+.right-content2 {
+    background-color: lightblue;
+    width: 40%; 
+
+}
+
+/* THIRD-SECTION */
+
+.left-content3, .right-content3 {
+    min-height: 300px;
+    border: 1px dashed black;
+}
+
+.left-content3  {
+    background-color: lightblue;
+    width: 40%;
+}
+
+.right-content3 {
+    background-color: pink;
+    width: 30%; 
+}
+
+/* SECTION FOURTH BIG-SQUARE */
+
+.big {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 800px;
+}
+
+.big-square {
+    background-color: green;
+    border: 1px dashed black;
+    min-height: 600px;
+    width: 60%;
+}
