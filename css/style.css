@@ -23,6 +23,8 @@ header {
 /* NAVIGATION AND MENU-NAV */
 .navigation {
     display: flex;
+    justify-content: space-between ;
+    align-items: center;
     background-color: orange;
     border: 1px dashed black;
     height: 50px;
@@ -31,17 +33,15 @@ header {
 }
 
 .menu-nav { 
+    border: 1px dashed black;
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 50px;
     gap: 1rem;
     width: 60%;
 }
 
-.logo { 
-    border: 1px dashed black;
-    width: 20%;
-}
 
 /* HERO */
 .hero {
@@ -187,7 +187,7 @@ header {
     width: 80%;
     display: flex;
     justify-content: space-between;
-    padding: 1rem 2rem;
+    padding: 1rem 0;
 }
 
 .logo-footer {
