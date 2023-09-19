@@ -13,7 +13,8 @@ li { list-style: none;}
 
 hr { color: white;}
 
-a {color: white;}
+a {color: white;
+    text-decoration: none;}
 
 /* HEADER */
 header { 
