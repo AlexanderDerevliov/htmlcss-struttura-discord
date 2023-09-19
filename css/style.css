@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+img { max-width: 100%;}
+
 /* COMMON */
 
 li { list-style: none;}
@@ -28,7 +30,7 @@ header {
     background-color: orange;
     border: 1px dashed black;
     height: 50px;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -39,7 +41,7 @@ header {
     justify-content: center;
     min-height: 50px;
     gap: 1rem;
-    width: 60%;
+    width: 70%;
 }
 
 
@@ -59,9 +61,7 @@ header {
     width: 50%;
 }
 
-/* SECTIONS */
-
-/* FIRST-SECTION */
+/* SECTIONS AND FIRST SECTION */
 
 /* COMMON STYLE */
 
@@ -140,7 +140,7 @@ header {
     background-color: green;
     border: 1px dashed black;
     min-height: 600px;
-    width: 60%;
+    width: 70%;
 }
 
 /* FOOTER */
@@ -153,6 +153,7 @@ header {
     justify-content: center;
     align-items: center;
     min-height: 600px;
+    
 }
 
 .col {
@@ -184,7 +185,7 @@ header {
 .footer-nav {
     background-color: lightblue;
     height: 50px;
-    width: 80%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
     padding: 1rem 0;
@@ -193,15 +194,14 @@ header {
 .logo-footer {
     background-color: pink;
     border: 1px dashed black;
-    width: 100px;
+    min-width: 100px;
     min-height: 20px;
     text-align: center;
-     
 }
 
 .button {
     border: 1px dashed black;
-    width: 100px;
+    min-width: 100px;
     min-height: 20px;
 }
 
