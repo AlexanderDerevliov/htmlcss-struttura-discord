@@ -199,14 +199,14 @@ header {
 .logo-footer {
     background-color: pink;
     border: 1px dashed black;
-    min-width: 100px;
+  
     min-height: 20px;
     text-align: center;
 }
 
 .button {
     border: 1px dashed black;
-    min-width: 100px;
+    
     min-height: 20px;
 }
 
